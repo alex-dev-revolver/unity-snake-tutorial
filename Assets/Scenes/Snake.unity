@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 1161375266}
   - component: {fileID: 1161375264}
   m_Layer: 0
-  m_Name: Snake
+  m_Name: SnakeGameManager
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -814,6 +814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridArea: {fileID: 864387895}
+  snake: {fileID: 1161375264}
 --- !u!1 &1431457602
 GameObject:
   m_ObjectHideFlags: 0
